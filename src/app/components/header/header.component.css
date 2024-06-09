@@ -1,0 +1,36 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #218c74;
+    color: #fff;
+  }
+  
+  .navbar-item a {
+    color: #fff;
+    margin-left: 1rem;
+    text-decoration: none;
+    padding: 0.4rem;
+    border-radius: 7px;
+  }
+
+  .navbar-title {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .navbar-end {
+    display: flex;
+  }
+  
+  .button.is-light {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .button.is-primary {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
