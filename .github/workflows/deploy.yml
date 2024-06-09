@@ -24,6 +24,9 @@ jobs:
     - name: Build the project
       run: npm run build --prod
 
+    - name: Install Vercel CLI
+      run: npm install -g vercel
+
     - name: Print VERCEL_TOKEN
       run: echo "VERCEL_TOKEN is $VERCEL_TOKEN"
     
